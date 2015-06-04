@@ -1,131 +1,113 @@
 body {
-  background-color: #EEEEEE;
+  background-color: #eee;
   color: #000;
-  direction: ltr;
   font-family:  Baskerville, Georgia, "Times New Roman", Times, serif;
-  font-size: 1.0em;
-  font-size-adjust: 0.553;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.0em;
-  letter-spacing: 0.01em;
-  margin: 0px;
-  padding: 0px;
-  text-align: left;
-  text-indent: 0px;
-  white-space: normal;
+  font-size: 2ex;
+  padding: 2ex;
 }
 
-hr {
-  background-color: #354E5A;
-  border: #354E5A solid 1px;
-  color: #354E5A;
-  clear: both;
+h1, h2, h3, h4, h5, h6 {
+  font-family:  Didot, Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  border-bottom: #000 2px solid;
+  margin-bottom: 1ex;
+}
+
+h3 {
+  margin: 3ex 0 0;
+}
+
+dl, dt, dd {
   display: block;
-  height: 3px;
-  margin-top: 50px;
-  width: 150px;
 }
 
-#container {
-  margin: 10px auto 0px auto;
-  width: 800px;
-}
-
-#header {
-  background-image: url('http://hosted.jimcavoli.com/images/resume/headerfooter.png');
-  background-repeat: no-repeat;
-  color: #354E5A;
-  font-size: 1.5em;
-  height: 10px;
-  padding-top: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 800px;
-}
-
-#header #phoneleft {
-  font-family: "Arial Narrow",Arial, Helvetica, sans-serif;
-  color: #999;
-  font-size: 0.5em;
-  float: left;
-  padding: 30px 0px 0px 20px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#header #phoneright {
-  font-family: "Arial Narrow",Arial, Helvetica, sans-serif;
-  color: #999;
-  font-size: 0.5em;
-  float: right;
-  padding: 30px 20px 0px 0px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#prehead {
-  font-family: "Arial Narrow",Arial, Helvetica, sans-serif;
-  color: #999;
-  font-size: 0.5em;
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 150px; 
-}
-
-#content {
-  background-image: url('http://hosted.jimcavoli.com/images/resume/middle.png');
-  background-repeat: repeat-y;
-  font-size: 0.75em;
-  padding: 10px 15px;
-  width: 770px;
-}
-
-.section {
-  font-family: "Arial Narrow",Arial, Helvetica, sans-serif;
-  color: #999;
-  float: left;
-  font-size: 0.9em;
-  text-align: right;
-  text-transform: uppercase;
-  width: 150px;
-}
-
-.item {
-  font-size: 0.9em;
-  margin: 0px 10px 10px 165px;
-}
-
-.item .title {
-  color: #354E5A;
-  text-transform: uppercase;
-}
-
-.item .detail {
-  color: #354E5A;
-  float: left;
-  font-style: italic;
-}
-
-.item .date {
-  color: #354E5A;
-  float: right;
-  font-style: italic;
-}
-
-.item .desc {
+dt {
   clear: both;
+  float: left;
 }
 
-#footer {
-  background-image: url('http://hosted.jimcavoli.com/images/resume/headerfooter.png');
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  font-size: 0.75em;
-  height: 25px;
-  padding: 0px 15px 10px;
+dd {
+  float: left;
+}
+
+dl:after {
+  content: "\00a0"
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  padding-bottom: 2ex;
+}
+
+footer {
+  border-top: #000 2px solid;
+  clear: both;
+  padding: 2ex 0 2ex 0;
   text-align: center;
-  width: 800px;
+}
+
+aside ul, aside ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside ul li {
+  margin: 0 0 5ex;
+}
+
+a:link, a:visited {
+  color: #777;
+}
+
+a:hover, a:active {
+  color: #000;
+}
+
+.pull-left {
+  float: left;
+  text-align: left;
+}
+
+.pull-right {
+  float: right;
+  text-align: right;
+}
+
+.container {
+  background-color: #fff;
+  padding: 1ex;
+  width: 50%;
+  margin: 0 auto;
+  left: 25%;
+  z-index: 100;
+}
+
+.social {
+  position: fixed;
+  left: 25%;
+  margin: 0 0 0 -10ex;
+}
+
+.downloads {
+  position: fixed;
+  right: 25%;
+  margin: 0 -10ex 0 0;
+}
+
+.date {
+  float: right;
+}
+
+.location {
+  font-style: italic;
 }

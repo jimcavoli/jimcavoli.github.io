@@ -1,0 +1,11 @@
+body {
+  font-size: 1.5ex;
+}
+
+.container {
+  width: 100%;
+}
+
+.screen-only {
+  display: none;
+}
