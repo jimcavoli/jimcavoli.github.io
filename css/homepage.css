@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: #333 url('http://farm4.staticflickr.com/3203/2523463215_11679d6e5f_o.jpg') center center no-repeat;
+  background: #333 url('/images/2523463215_11679d6e5f_o.jpg') center center no-repeat;
 }
 
 body {
