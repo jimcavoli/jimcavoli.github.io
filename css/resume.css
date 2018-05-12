@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  border-bottom: #000 2px solid;
+  border-bottom: #000 0.25ex solid;
   margin-bottom: 1ex;
 }
 
@@ -36,21 +36,21 @@ dd {
   float: left;
 }
 
-dl:after {
-  content: "\00a0"
-}
-
 p {
   margin: 0;
 }
 
 section {
-  padding-bottom: 2ex;
+  clear: both;
+}
+
+section + section {
+  padding: 2ex 0 0;
 }
 
 footer {
-  border-top: #000 2px solid;
   clear: both;
+  margin-top: 8ex;
   padding: 2ex 0 2ex 0;
   text-align: center;
 }
@@ -71,16 +71,6 @@ a:link, a:visited {
 
 a:hover, a:active {
   color: #000;
-}
-
-.pull-left {
-  float: left;
-  text-align: left;
-}
-
-.pull-right {
-  float: right;
-  text-align: right;
 }
 
 .container {
